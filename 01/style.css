@@ -304,8 +304,8 @@ h1,h2,h3
 
 .campo textarea 
 {
-    height: 12rem;
-    width: 20rem;
+    height: 20rem;
+    width: 50rem;
     border-radius: 1rem;
 }
 
@@ -532,8 +532,8 @@ h1,h2,h3
 
     .campo textarea 
     {
-        width: 20%; 
-        height: 20rem;
+        width: 100%; 
+        /*height: 20rem;*/
     }
     
    
