@@ -22,7 +22,9 @@ html
 {
     scroll-behavior: smooth; /*Para cuando se cliquea y se pasa a otra sección*/
     font-size: 62.5%;
-    /*1rem = 10px*/
+    scroll-snap-type: y mandatory;
+    /*
+    1rem = 10px*/
 }
 
 /* *,*::before, *::after{
@@ -341,8 +343,11 @@ h1,h2,h3
 ============================================Footer===================
 */
 
-
-
+footer
+{
+    text-align: center;
+    margin: 3rem;
+}
 
 
 
